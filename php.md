@@ -8,4 +8,38 @@
 
 Задание 1. Анализ HTTP-запросов. Часть 1
 
+URL: https://en.wikipedia.org/wiki/HTTP
 ![HTTP запрос](Screenshot_1.png)
+
+Метод: GET (используется для получения страницы)
+![METOD](Screenshot_1.png)
+
+Статус: 200 OK (успешная загрузка)
+![STATUS](Screenshot_1.png)
+
+Заголовки запроса и ответа.
+(Содержат информацию о браузере, формате данных и соединении.)
+![HEADERS](Screenshot_1.png)
+
+Тело запроса и ответа
+Тело запроса: отсутствует
+Тело ответа: HTML код страницы
+![TELA](Screenshot_1.png)
+
+7.Дополнительные запросы
+Используются для загрузки стилей, скриптов и изображений.
+![DOP.ZAP](Screenshot_1.png)
+
+...
+...
+
+9.https://en.wikipedia.org/wiki/HTTPdsfdfs
+
+Ошибка 404
+URL: https://en.wikipedia.org/wiki/HTTPdsfdfs
+Статус: 404 Not Found
+Причина: страница не существует
+![404](Screenshot_1.png)
+
+
+
