@@ -9,26 +9,30 @@
 Задание 1. Анализ HTTP-запросов. Часть 1
 
 URL: https://en.wikipedia.org/wiki/HTTP
-![HTTP запрос](Screenshot_1.png)
+![HTTP запрос](URL.png)
 
-Метод: GET (используется для получения страницы)
-![METOD](Screenshot_1.png)
+Метод: GET 
+    (используется для получения страницы)
+![METOD](metod_GET.png)
 
-Статус: 200 OK (успешная загрузка)
-![STATUS](Screenshot_1.png)
+Сосотояние: 304
+![STATUS](sostoyanie.png)
+
+    Код "HTTP 304 Not Modified" клиента указывает, что нет необходимости повторно передавать запрошенные         ресурсы. Это неявное перенаправление на кешированный ресурс. Это происходит, когда метод safe, например      GET или HEAD запрос
 
 Заголовки запроса и ответа.
 (Содержат информацию о браузере, формате данных и соединении.)
-![HEADERS](Screenshot_1.png)
+![HEADERS](zagolovki.png)
 
 Тело запроса и ответа
 Тело запроса: отсутствует
+![TELA](telo_zaprosa.png)
 Тело ответа: HTML код страницы
-![TELA](Screenshot_1.png)
+![TELA](telo_otveta.png)
 
 7.Дополнительные запросы
 Используются для загрузки стилей, скриптов и изображений.
-![DOP.ZAP](Screenshot_1.png)
+![DOP.ZAP](drugie_zaprosi.png)
 
 ...
 ...
@@ -39,7 +43,7 @@ URL: https://en.wikipedia.org/wiki/HTTP
 URL: https://en.wikipedia.org/wiki/HTTPdsfdfs
 Статус: 404 Not Found
 Причина: страница не существует
-![404](Screenshot_1.png)
+![404](404.png)
 
 
 
