@@ -17,6 +17,7 @@ URL: https://en.wikipedia.org/wiki/HTTP
     
 ![METOD](metod_GET.png)
 
+
 Сосотояние: 304
 ![STATUS](sostoyanie.png)
 
