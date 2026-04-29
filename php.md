@@ -81,4 +81,27 @@ URL: https://en.wikipedia.org/wiki/HTTPdsfdfs
 ![404](404.png)
 
 
+___________________________________________________________________
 
+
+Задание 2
+
+1)URL запроса. Какой URL используется для выполнения поиска?
+
+https://en.wikipedia.org/w/index.php?search=intitle:browser&title=Special:Search&profile=advanced&fulltext=1&advancedSearch-current={"fields":{"intitle":"browser"}}&ns0=1
+
+___________________________________________________________________
+
+2)Метод запроса. Почему используется именно этот метод?
+
+Метод: GET, потому что параметры поиска передаются через URL
+
+___________________________________________________________________
+
+3)Query Parameters. Какие параметры передаются в запросе, что они означают и для чего используются?
+
+    search=intitle:browser
+    title=Special:Search
+    
+search — содержит поисковый запрос (browser)
+title — указывает страницу поиска
